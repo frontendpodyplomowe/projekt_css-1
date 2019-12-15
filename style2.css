@@ -4,15 +4,15 @@ body {
 
 li {
     list-style: none;
-    padding: 8px;
-    font-size: 15px;
+
+    padding: 23px;
+    font-size:45px;
     display: inline-block;
 
 }
-
-a {
-    text-decoration: none;
-    color: rgb(241, 241, 241);
+a{   
+text-decoration: none;
+color: green;
 }
 
 ul {
