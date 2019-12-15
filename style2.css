@@ -1,35 +1,45 @@
-body{
+body {
     margin: 0;
 }
-li{
+
+li {
     list-style: none;
     padding: 8px;
-    font-size:15px;
+    font-size: 15px;
     display: inline-block;
 
 }
-a{   
-text-decoration: none;
-color: black;
+
+a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
 }
-ul{
+
+ul {
     padding: 0;
     margin: 0;
 }
-nav{
+
+nav {
     border-bottom: 1px solid black;
-    background-color: rgb(243, 210, 167);
-    color: black; 
+    background-color: #6727cf;
+    color: black;
     width: 100%;
 }
 
-li:hover{
-    background-color: rgb(241, 213, 177);
+li:hover {
+    background-color: #5621aa;
     font-weight: bold;
 }
 
-@media screen and (min-width:768px){
-    nav ul{
+h1 {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+    margin: 150px;
+    color: #5621aa;
+}
+
+@media screen and (min-width:768px) {
+    nav ul {
         display: flex;
         justify-content: flex-end;
     }
